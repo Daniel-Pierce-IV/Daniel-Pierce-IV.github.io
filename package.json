@@ -1,0 +1,24 @@
+{
+  "name": "daniel-pierce-iv.github.io",
+  "version": "1.0.0",
+  "description": "Personal website of Daniel Pierce IV.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daniel-Pierce-IV/Daniel-Pierce-IV.github.io.git"
+  },
+  "author": "Daniel Pierce IV",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daniel-Pierce-IV/Daniel-Pierce-IV.github.io/issues"
+  },
+  "homepage": "https://github.com/Daniel-Pierce-IV/Daniel-Pierce-IV.github.io#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  }
+}

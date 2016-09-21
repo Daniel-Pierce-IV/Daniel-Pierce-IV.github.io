@@ -1,0 +1,32 @@
+	@media only screen and (max-width: 999px){
+
+	html, body{
+		overflow: visible;
+	}
+
+	#section-1, #section-2{
+		display: block;
+		width: 100%;
+	}
+
+	#section-1{
+		height: 300px;
+	}
+
+	#section-2{
+		left: 0%;
+		position: relative;
+		height: auto;
+		padding: 2em 0;
+	}
+
+	#paragraphs{
+		top: auto;
+		transform: translateX(-50%);
+		margin: 0;
+	}
+
+	p{
+		font-size: 1em;
+	}
+}
