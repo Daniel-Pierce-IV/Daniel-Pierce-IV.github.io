@@ -8,13 +8,13 @@ body{
 }
 
 header {
-  margin: 3em auto; 
+  margin: 3em auto;
 }
 
 header h1 {
-    color: #90D9F9;
-    font-size: 3em;
-    /*margin: 0;*/ 
+  color: #90D9F9;
+  font-size: 3em;
+  /*margin: 0;*/
 }
 
 a {
@@ -22,10 +22,13 @@ a {
 
 nav ul {
   list-style: none;
-  padding: 0; }
-  nav ul li {
-    display: inline;
-    margin: 0 1em; }
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1em;
+}
 
 nav a {
   border: 5px solid #0892D0;
@@ -34,7 +37,10 @@ nav a {
   font-size: 1.2em;
   font-weight: bold;
   padding: 5px;
-  margin: auto; }
-  nav a:hover {
-    border-color: #FF8700;
-    color: #FFCA8E; }
+  margin: auto;
+}
+
+nav a:hover {
+  border-color: #FF8700;
+  color: #FFCA8E;
+}
