@@ -1,41 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+	<!-- User is unable to scale the screen size on mobile devices -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
 	<title>Daniel Pierce IV</title>
-	<link rel="shortcut icon" type="text/css" href="images/Daniel-Pierce-IV-Webpage-Icon.png">
-	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+	<link rel="shortcut icon" type="text/css" href="src/images/Daniel-Pierce-IV-Webpage-Icon.png">
+	<link rel="stylesheet" type="text/css" href="src/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="src/css/main.css">
 </head>
 <body>
-	<div id="section-1">
-		<header>
-			<h1>Daniel Pierce IV</h1>
-			<h2>Front End Web Developer</h2>
-			<nav>
-				<ul>
-					<li><a href="files/Daniel-Pierce-IV-Resume.pdf">Resume</a></li>
-					<li><a href="projects/projects.html">Projects</a></li>
-				</ul>
-				<ul>
-					<li><a href="https://github.com/Daniel-Pierce-IV">Github</a></li>
-					<li><a href="mailto:Admin@Daniel-Pierce-IV.com">Contact</a></li>
-				</ul>
-			</nav>
-		</header>
-	</div>
-	
-	<div id="section-2">
-		<div id="paragraphs">
-			<p>I'm Daniel, an autodidact freelance developer living in the greater Seattle area, specifically in Bellevue, WA. I've been toying with code on-and-off for about four years, taking a serious approach to building my skill within the last two. I find programming to be a challenging and fun experience, and I'd love to turn this hobby into a rewarding career.</p>
+	<nav>
+		<ul>
+			<!-- <li><a href="files/Daniel-Pierce-IV-Resume.pdf">Resum&#0233</a></li> -->
+			<!-- <li><a href="projects/projects.html">Projects</a></li> -->
+			<!-- <li><a href="https://github.com/Daniel-Pierce-IV">Github</a></li> -->
+			<!-- <li><a href="mailto:Admin@Daniel-Pierce-IV.com">Contact</a></li> -->
 
-			<p>I'm fresh to the world of professional development, but I'm confident that my commitment to learning, constant effort to grow as a developer and my personal dogma of never giving anything less than my best effort will make me an asset to any team.</p>
+			<li class="active"><a data-scroll href="#about">About</a></li>
+			<li><a data-scroll href="#experience">Experience</a></li>
+			<li><a data-scroll href="#projects">Projects</a></li>
+			<li><a data-scroll href="#education">Education</a></li>
+			<li><a data-scroll href="#skills">Skills</a></li>
+			<li><a data-scroll href="#contact">Contact</a></li>
+		</ul>
+	</nav>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-md-6">
+				<header class="text-center">
+					<h1>Daniel Pierce IV</h1>
+					<h2>Front End Web Developer</h2>
+				</header>
+			</div>
+			
+			<div class="sm-col-12 col-md-6">
+				<p>I'm Daniel, an autodidact freelance developer living in the greater Seattle area, specifically in Bellevue, WA. I've been toying with code on-and-off for about four years, taking a serious approach to building my skill within the last two. I find programming to be a challenging and fun experience, and I'd love to turn this hobby into a rewarding career.</p>
 
-			<p>I spend a lot of time learning about interesting web development topics, but occasionally a man has to appreciate the other fine things in life. When I'm not neck-deep in code or study material, I enjoy being an avid gamer, taking my wife out for a night on the town, and climbing the occasional rock wall or two. </p>
+				<p>I'm fresh to the world of professional development, but I'm confident that my commitment to learning, constant effort to grow as a developer and my personal dogma of never giving anything less than my best effort will make me an asset to any team.</p>
 
-			<p>I'm always interested in new opportunities to put my skills to use. If you have a position to fill, or a job that needs  taken care of, don't hesitate to <a href="mailto:Admin@Daniel-Pierce-IV.com">shoot me an email.</a></p>
+				<p>I spend a lot of time learning about interesting web development topics, but occasionally a man has to appreciate the other fine things in life. When I'm not neck-deep in code or study material, I enjoy being an avid gamer, taking my wife out for a night on the town, and climbing the occasional rock wall or two. </p>
 
-			<p>Until then, I'll be coding.</p>
+				<p>I'm always interested in new opportunities to put my skills to use. If you have a position to fill, or a job that needs  taken care of, don't hesitate to <a href="mailto:Admin@Daniel-Pierce-IV.com">shoot me an email.</a></p>
+
+				<p>Until then, I'll be coding.</p>
+			</div>
 		</div>
 	</div>
+
+	<div class="divider"></div>
+
+	<div id="projects" class="container">
+		<div class="row">
+			<div class="col-sm-12 col-md-5 well">
+				<div class="col-sm-12 col-md-6">
+					
+				</div>
+				<div class="col-sm-12 col-md-6">
+					<h2>My Project Title</h2>
+					<p>My project description would go here, sooner or later...</p>
+				</div>
+			</div>
+
+			<div class="col-sm-12 col-md-5 well">
+				<div class="col-sm-12 col-md-6">
+					
+				</div>
+				<div class="col-sm-12 col-md-6">
+					<h2>My Project Title</h2>
+					<p>My project description would go here, sooner or later...</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="src/js/jquery-3.1.1.min.js"></script>
+	<script src="src/js/bootstrap.min.js"></script>
+	<script src="src/js/smooth-scroll.min.js"></script>
 </body>
 </html>
