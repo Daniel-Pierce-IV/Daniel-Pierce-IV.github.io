@@ -1,0 +1,126 @@
+h1 {
+  font-size: 4em; }
+
+h2 {
+  font-size: 3em; }
+
+h3 {
+  font-size: 2.25em; }
+
+h4 {
+  font-size: 1.5em; }
+
+header {
+  padding: 65px 0 65px 0;
+  text-align: center; }
+  header h1 {
+    color: #0892D0; }
+  header a {
+    background-color: white;
+    border: 1px solid #0892D0;
+    border-radius: 50px;
+    display: inline-block;
+    font-size: 1.2em;
+    min-width: 15em;
+    margin: 1em 0 1em 0;
+    padding: .5em 1em;
+    text-align: center;
+    transition: transform .5s, background-color .5s, border-color .5s, color .5s; }
+    header a:hover {
+      background-color: #0892D0;
+      border-color: white;
+      color: white;
+      transform: scale(1.2); }
+
+a, a:hover, a:active, a:visited {
+  text-decoration: none; }
+
+nav {
+  position: fixed;
+  left: 50%;
+  top: 15px;
+  transform: translateX(-50%);
+  z-index: 99; }
+  nav ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0; }
+  nav li {
+    display: inline-block;
+    padding: 0 10px;
+    text-align: center; }
+  nav a {
+    background-color: white;
+    border: 1px solid #0892D0;
+    border-radius: 50px;
+    display: inline-block;
+    min-width: 7em;
+    margin: 0 0 1em 0;
+    padding: .5em 1em;
+    transition: transform .5s, background-color .5s, border-color .5s, color .5s; }
+    nav a:hover {
+      background-color: #0892D0;
+      border-color: white;
+      color: white;
+      transform: scale(1.2); }
+
+@media (min-width: 1425px) {
+  nav {
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: auto; }
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0; }
+    nav li {
+      display: block; } }
+
+.divider {
+  background-color: #0892D0;
+  width: 100%; }
+
+.project {
+  border: 2px solid #0892D0;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 25px; }
+  .project h3 {
+    border-bottom: 2px solid #0892D0;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    color: #0892D0;
+    padding: .25em 0;
+    margin: 0;
+    transition: color .75s, background-color .75s; }
+  .project h4 {
+    border-bottom: 2px solid #0892D0;
+    padding: .25em 0;
+    margin: 0; }
+    .project h4 a {
+      color: #FF8700; }
+      .project h4 a:hover {
+        color: #0892D0; }
+  .project p {
+    max-width: 90%;
+    margin: auto;
+    padding: .5em 0; }
+  .project:hover h3 {
+    background-color: #0892D0;
+    color: white; }
+
+p {
+  font-size: 1.2em;
+  max-width: 750px;
+  margin: 25px auto;
+  padding: 0 25px; }
+
+.section-heading {
+  display: inline-block;
+  color: white;
+  padding: 15px 0;
+  margin: 0; }
+
+.container:not(::first-child) {
+  margin-bottom: 50px; }
