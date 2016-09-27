@@ -114,6 +114,7 @@ nav{
 	border-radius: 10px;
 	text-align: center;
 	margin-top: 25px;
+	margin-bottom: 50px;
 
 	h3{
 		border-bottom: 2px solid $colorPrimary;
@@ -166,6 +167,6 @@ p{
 	margin: 0;
 }
 
-.container:not(::first-child){
+.container:last-child{
 	margin-bottom: 50px;
 }
