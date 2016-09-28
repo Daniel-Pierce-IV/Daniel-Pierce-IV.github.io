@@ -12,7 +12,6 @@ $(window).resize(function(){
 	alignHeadings(".section-heading");
 });
 
-
 //Resizes all selector element's heights to the same value
 function resizeFrames(selector, breakPoint){
 	var max = 0;

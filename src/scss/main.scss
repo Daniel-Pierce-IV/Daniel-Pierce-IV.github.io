@@ -13,6 +13,17 @@ h4{
 	font-size: 1.5em;
 }
 
+p{
+	font-size: 1.2em;
+	max-width: 750px;
+	margin: 25px auto;
+	padding: 0 25px;
+}
+
+a, a:hover, a:active, a:visited{
+	text-decoration: none;
+}
+
 header{
 	padding: 65px 0 65px 0;
 	text-align: center;
@@ -40,10 +51,6 @@ header{
 			transform: scale(1.2);
 		}
 	}
-}
-
-a, a:hover, a:active, a:visited{
-	text-decoration: none;
 }
 
 nav{
@@ -109,6 +116,12 @@ nav{
 	width: 100%;
 }
 
+.separator{
+	background-color: $colorPrimary;
+	height: 2px;
+	width: 100%;
+}
+
 .project{
 	border: 2px solid $colorPrimary;
 	border-radius: 10px;
@@ -151,13 +164,6 @@ nav{
 		background-color: $colorPrimary;
 		color: white;
 	}
-}
-
-p{
-	font-size: 1.2em;
-	max-width: 750px;
-	margin: 25px auto;
-	padding: 0 25px;
 }
 
 .section-heading{
