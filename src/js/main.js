@@ -6,7 +6,7 @@ var mobileBreak = 767;
 var iconLocation = "src/images/skill-icons-";
 var mIconSize = 128;
 var sIconSize = 64;
-var iconArr = ["HTML5", "CSS3", "JS", "jQuery", "Bootstrap", "Sass", "Vue", "Java", "Android", "GitHub", "Node", "Gulp", "WordPress", "Illustrator"];
+var iconArr = ["HTML5", "CSS3", "JS", "jQuery", "Bootstrap", "Sass", "Vue", "Java", "Android", "Github", "Node", "Gulp", "WordPress", "Illustrator"];
 var skillArr = $(".skill-icon");
 var curSize = sIconSize;
 
