@@ -2,14 +2,24 @@
 //Bootstrap's mobile device @media breakpoint
 var mobileBreak = 767;
 
+//Load and set skill icons
+var iconLocation = "src/images/skill-icons-";
+var mIconSize = 128;
+var sIconSize = 64;
+var iconArr = ["HTML5", "CSS3", "JS", "jQuery", "Bootstrap", "Sass", "Vue", "Java", "Android", "GitHub", "Node", "Gulp", "WordPress", "Illustrator"];
+var skillArr = $(".skill-icon");
+var curSize = sIconSize;
+
 //Functions to run immediately
 resizeFrames('.project', mobileBreak);
 alignHeadings(".section-heading");
+setSkillIcons(true);
 
 //Resize project boxes if window is mobile-sized
 $(window).resize(function(){
 	resizeFrames('.project', mobileBreak);
 	alignHeadings(".section-heading");
+	setSkillIcons();
 });
 
 //Resizes all selector element's heights to the same value
@@ -56,6 +66,27 @@ function alignHeadings(selector){
 		$(selector).each(function(){
 			var margin = $(".divider").width()/2 - $(this).width()/2;
 			$(this).css("margin-left", margin);
+		});
+	}
+}
+
+function setSkillIcons(update){
+	var size;
+
+	if($(window).width() <= mobileBreak){
+		size = sIconSize;
+	} else {
+		size = mIconSize;
+	}
+
+	if(size !== curSize || update){
+		curSize = size;
+
+		var i = 0;
+		$(".skill-icon").each(function(){
+			var image = "url(" + iconLocation + size + "/Logo-" + iconArr[i] + ".png)";
+			$(this).css({"background-image": image, "width": "" + size, "height": "" + size});
+			i++;
 		});
 	}
 }

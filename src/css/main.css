@@ -20,7 +20,7 @@ a, a:hover, a:active, a:visited {
   text-decoration: none; }
 
 header {
-  padding: 65px 0 65px 0;
+  padding: 65px 0 0 0;
   text-align: center; }
   header h1 {
     color: #0892D0; }
@@ -41,18 +41,79 @@ header {
       color: white;
       transform: scale(1.2); }
 
+footer {
+  margin: 50px 0; }
+
+/*
+nav{
+	position: fixed;
+	left: 50%;
+	top: 15px;
+	transform: translateX(-50%);
+	//width: 90%;
+	z-index: 99;
+
+	ul{
+		list-style-type: none;
+		margin: 0 auto;
+		padding: 0;
+	}
+
+	li{
+		display: inline-block;
+		padding: 0 10px;
+		text-align: center;
+	}
+
+	a{
+		background-color: white;
+		border: 1px solid $colorPrimary;
+		border-radius: 50px;
+		display: inline-block;
+		min-width: 7em;
+		margin: 0 0 1em 0;
+		padding: .5em 1em;
+		transition: transform .5s, background-color .5s, border-color .5s, color .5s;
+
+		&:hover{
+			background-color: $colorPrimary;
+			border-color: white;
+			color: white;
+			transform: scale(1.2);
+		}
+	}
+}
+
+@media (min-width: $screen-lg){
+	nav{
+		left: 15px;
+		top: 50%;
+		transform: translateY(-50%);
+		width: auto;
+
+		ul{
+			list-style-type: none;
+			margin: 0;
+		}
+
+		li{
+			display: block;
+		}
+	}
+}
+*/
 nav {
+  display: none;
+  left: 5px;
   position: fixed;
-  left: 50%;
-  top: 15px;
-  transform: translateX(-50%);
+  top: 50%;
+  transform: translateY(-50%);
   z-index: 99; }
   nav ul {
     list-style-type: none;
     margin: 0 auto;
     padding: 0; }
   nav li {
-    display: inline-block;
     padding: 0 10px;
     text-align: center; }
   nav a {
@@ -70,21 +131,13 @@ nav {
       color: white;
       transform: scale(1.2); }
 
-@media (min-width: 1425px) {
+@media (min-width: 1200px) {
   nav {
-    left: 15px;
-    top: 50%;
-    transform: translateY(-50%);
-    width: auto; }
-    nav ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0; }
-    nav li {
-      display: block; } }
+    display: block; } }
 
 .divider {
   background-color: #0892D0;
+  margin: 100px 0 50px 0;
   width: 100%; }
 
 .separator {
@@ -130,3 +183,12 @@ nav {
 
 .container:last-child {
   margin-bottom: 50px; }
+
+.skill-icon {
+  display: inline-block;
+  /*width: 64px;
+	height: 64px;*/
+  margin-bottom: 50px; }
+
+#skills {
+  margin-bottom: 100px; }
