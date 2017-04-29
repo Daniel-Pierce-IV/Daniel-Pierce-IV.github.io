@@ -57,7 +57,7 @@ class AppConsole
                 window.open("https://github.com/daniel-pierce-iv");
             },
             resume:  function(scope){
-                window.open("http://127.0.0.1:33213/files/resume.pdf");
+                window.open("http://daniel-pierce-iv.com/files/resume.pdf");
             },
             clear: function(scope){
                 scope.clearInput();
