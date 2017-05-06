@@ -88,7 +88,8 @@ class AppConsole
     }
     
     submitInput(){
-        let input = this.inputElement.value.trim();
+        //Trim input and convert it to lowercase for input case insensitivity
+        let input = this.inputElement.value.trim().toLowerCase();
         this.addToHistory(input);
         this.inputHistoryPositionReset();
         this.processInput();
